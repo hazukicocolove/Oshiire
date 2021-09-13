@@ -1,0 +1,57 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "09c101f6cff7be836afe456474cb3c1b5c01eed8695d3123ab4ee02c4f838c5b"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/DerivedData/Oshiire/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/DerivedData/Oshiire/Build/Products",
+      "derivedDataPath" : "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/DerivedData/Oshiire/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/DerivedData/Oshiire/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/DerivedData/Oshiire/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone12,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "D9FA81BF-EE29-4779-AC8A-92625DF7864A",
+          "TARGET_DEVICE_MODEL" : "iPhone12,1",
+          "TARGET_DEVICE_OS_VERSION" : "14.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
