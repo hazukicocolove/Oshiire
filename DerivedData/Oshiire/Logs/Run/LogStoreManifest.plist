@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>269430B0-3063-4C39-80FC-637D335D307C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>269430B0-3063-4C39-80FC-637D335D307C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Oshiire project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Oshiire</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Oshiire</string>
+			<key>timeStartedRecording</key>
+			<real>654785488.423437</real>
+			<key>timeStoppedRecording</key>
+			<real>654785831.83742201</real>
+			<key>title</key>
+			<string>Run Oshiire</string>
+			<key>uniqueIdentifier</key>
+			<string>269430B0-3063-4C39-80FC-637D335D307C</string>
+		</dict>
 		<key>513F8980-90A4-47D5-A781-9789D6D891B3</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,40 @@
 			<string>Run Oshiire</string>
 			<key>uniqueIdentifier</key>
 			<string>513F8980-90A4-47D5-A781-9789D6D891B3</string>
+		</dict>
+		<key>BD9C1449-AEAC-403F-B837-9D8D4522A646</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BD9C1449-AEAC-403F-B837-9D8D4522A646.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Oshiire project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Oshiire</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Oshiire</string>
+			<key>timeStartedRecording</key>
+			<real>654763316.49683905</real>
+			<key>timeStoppedRecording</key>
+			<real>654785469.67927599</real>
+			<key>title</key>
+			<string>Run Oshiire</string>
+			<key>uniqueIdentifier</key>
+			<string>BD9C1449-AEAC-403F-B837-9D8D4522A646</string>
 		</dict>
 	</dict>
 </dict>

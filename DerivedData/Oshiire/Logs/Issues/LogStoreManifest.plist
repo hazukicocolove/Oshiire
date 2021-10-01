@@ -62,34 +62,6 @@
 			<key>uniqueIdentifier</key>
 			<string>7898F516-E909-4041-9021-6004F5A1B0DE</string>
 		</dict>
-		<key>8A1B4E7E-5D27-4549-A213-78058ED7E084</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>8A1B4E7E-5D27-4549-A213-78058ED7E084.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>signature</key>
-			<string>Oshiire-ahjmvgmrgfldapdcunvpuhnuhhst</string>
-			<key>timeStartedRecording</key>
-			<real>654764246.823843</real>
-			<key>timeStoppedRecording</key>
-			<real>654764247.78344798</real>
-			<key>title</key>
-			<string>Build target Oshiire</string>
-			<key>uniqueIdentifier</key>
-			<string>8A1B4E7E-5D27-4549-A213-78058ED7E084</string>
-		</dict>
 		<key>A0B6A0FE-479E-4629-BE79-36EA09A348B7</key>
 		<dict>
 			<key>className</key>
@@ -117,6 +89,34 @@
 			<string>Build target RealmCore</string>
 			<key>uniqueIdentifier</key>
 			<string>A0B6A0FE-479E-4629-BE79-36EA09A348B7</string>
+		</dict>
+		<key>C19CD5B4-32E7-41B3-9A30-357A0E837D7B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>C19CD5B4-32E7-41B3-9A30-357A0E837D7B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Oshiire-ahjmvgmrgfldapdcunvpuhnuhhst</string>
+			<key>timeStartedRecording</key>
+			<real>654792815.14173305</real>
+			<key>timeStoppedRecording</key>
+			<real>654792827.34868002</real>
+			<key>title</key>
+			<string>Build target Oshiire</string>
+			<key>uniqueIdentifier</key>
+			<string>C19CD5B4-32E7-41B3-9A30-357A0E837D7B</string>
 		</dict>
 		<key>EB64867C-6FB9-40F1-BF68-0718A4AC5968</key>
 		<dict>

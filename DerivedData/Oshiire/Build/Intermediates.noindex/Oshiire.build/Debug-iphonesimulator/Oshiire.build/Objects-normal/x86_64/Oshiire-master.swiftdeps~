@@ -1,7 +1,8 @@
 version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
-options: "d21201b6e52a51826807caae06d7f2f4"
-build_time: [1631960655, 431705000]
+options: "9008efa6358125698511d3641211df25"
+build_time: [1632129081, 288848000]
 inputs:
-  "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/Oshiire/ViewController.swift": !private [1631960655, 271573088]
+  "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/Oshiire/ViewController.swift": [1632128646, 14424513]
   "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/Oshiire/AppDelegate.swift": [1631538435, 423966184]
+  "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/Oshiire/CollectionViewCell.swift": [1632116836, 700527878]
   "/Users/hazuki/Desktop/13/la/lifeistech/Oshiire/Oshiire/SceneDelegate.swift": [1631538435, 431439060]

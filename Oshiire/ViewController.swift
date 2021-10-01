@@ -16,6 +16,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // picturesの配列の中身の数を表示する
        return itemList.count
+     
        
     }
     
@@ -43,6 +44,17 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
       //array//  var array = userDefaults.array(forKey: "キー")
     
+        let fil1 = itemList.prefix(3)
+        let fil2 = itemList.prefix(5)
+        let fil3 = itemList.prefix(10)
+        let fil4 = itemList.prefix(15)
+        let fil5 = itemList.prefix(20)
+        let fil6 = itemList.prefix(25)
+        let fil7 = itemList.prefix(100)
+    
+        
+        
+        
         colorlilter1()
         func colorlilter1(){
         //ネット
@@ -194,7 +206,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       //  use.realmUse = image?.NSData()
         let realm = try! Realm()
      
-        if let useList = realm.object(UseList.self).first{
+        if let useList = realm.objects(UseList.self).first{
             useList.uses.insert(use, at: 0)
         }else{
         

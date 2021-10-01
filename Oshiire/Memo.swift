@@ -28,7 +28,6 @@ class Use: Object {
 //    }
     // var itemList: Results<Memo>!let realm = try! Realm()
 
-let realm = try! Realm()
 
 // Get the list object
 //let useList = realm.objects(UseList.self).first!

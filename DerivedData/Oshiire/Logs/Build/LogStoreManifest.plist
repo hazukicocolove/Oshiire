@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>087A8731-0B98-49D4-AF0A-3819B677DE2C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>087A8731-0B98-49D4-AF0A-3819B677DE2C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Oshiire project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Oshiire</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Oshiire</string>
+			<key>timeStartedRecording</key>
+			<real>654792793.65086496</real>
+			<key>timeStoppedRecording</key>
+			<real>654792795.35795498</real>
+			<key>title</key>
+			<string>Build Oshiire</string>
+			<key>uniqueIdentifier</key>
+			<string>087A8731-0B98-49D4-AF0A-3819B677DE2C</string>
+		</dict>
 		<key>1BF528C5-0982-4B8F-93AD-8E591ED5BBFC</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,40 @@
 			<string>Build Oshiire</string>
 			<key>uniqueIdentifier</key>
 			<string>1BF528C5-0982-4B8F-93AD-8E591ED5BBFC</string>
+		</dict>
+		<key>39BF7F7F-FDDE-4D15-8C13-156F26BCE383</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>39BF7F7F-FDDE-4D15-8C13-156F26BCE383.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Oshiire project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Oshiire</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Oshiire</string>
+			<key>timeStartedRecording</key>
+			<real>654785831.70003998</real>
+			<key>timeStoppedRecording</key>
+			<real>654785847.15345895</real>
+			<key>title</key>
+			<string>Build Oshiire</string>
+			<key>uniqueIdentifier</key>
+			<string>39BF7F7F-FDDE-4D15-8C13-156F26BCE383</string>
 		</dict>
 		<key>4BEDA055-4CE7-4408-96F7-2A5C9DC84FEB</key>
 		<dict>
@@ -176,6 +244,40 @@
 			<key>uniqueIdentifier</key>
 			<string>9B28856F-48BC-4C57-9469-DD8A416C29C2</string>
 		</dict>
+		<key>A9EBB772-01BB-4555-A777-13318EE9FBCB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A9EBB772-01BB-4555-A777-13318EE9FBCB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Oshiire project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Oshiire</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Oshiire</string>
+			<key>timeStartedRecording</key>
+			<real>654792814.90627396</real>
+			<key>timeStoppedRecording</key>
+			<real>654792827.35344505</real>
+			<key>title</key>
+			<string>Build Oshiire</string>
+			<key>uniqueIdentifier</key>
+			<string>A9EBB772-01BB-4555-A777-13318EE9FBCB</string>
+		</dict>
 		<key>B1C8567C-DFDB-4667-9728-B819792E2533</key>
 		<dict>
 			<key>className</key>
@@ -243,6 +345,40 @@
 			<string>Build Oshiire</string>
 			<key>uniqueIdentifier</key>
 			<string>BF6F8E64-6B21-401A-9B85-C45525ECF81C</string>
+		</dict>
+		<key>E1B9638E-3D57-42B8-A775-22A6A2192AD7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E1B9638E-3D57-42B8-A775-22A6A2192AD7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Oshiire project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Oshiire</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Oshiire</string>
+			<key>timeStartedRecording</key>
+			<real>654785469.51225197</real>
+			<key>timeStoppedRecording</key>
+			<real>654785488.38005304</real>
+			<key>title</key>
+			<string>Build Oshiire</string>
+			<key>uniqueIdentifier</key>
+			<string>E1B9638E-3D57-42B8-A775-22A6A2192AD7</string>
 		</dict>
 	</dict>
 </dict>
