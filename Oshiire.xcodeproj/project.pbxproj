@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9287F1C26F88731008F507D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D9287F1B26F88731008F507D /* Realm */; };
+		D9287F1E26F88731008F507D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9287F1D26F88731008F507D /* RealmSwift */; };
+		D9287F2026F8CB17008F507D /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9287F1F26F8CB17008F507D /* Memo.swift */; };
+		D93BF15926F84ABF0092A0D6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93BF15826F84ABF0092A0D6 /* CollectionViewCell.swift */; };
 		D9E4EC4326EF848300EE036C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4EC4226EF848300EE036C /* AppDelegate.swift */; };
 		D9E4EC4526EF848300EE036C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4EC4426EF848300EE036C /* SceneDelegate.swift */; };
 		D9E4EC4726EF848300EE036C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4EC4626EF848300EE036C /* ViewController.swift */; };
 		D9E4EC4A26EF848300EE036C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E4EC4826EF848300EE036C /* Main.storyboard */; };
 		D9E4EC4C26EF848400EE036C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E4EC4B26EF848400EE036C /* Assets.xcassets */; };
 		D9E4EC4F26EF848400EE036C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E4EC4D26EF848400EE036C /* LaunchScreen.storyboard */; };
+		D9ED944426FF958A004865F1 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED944326FF958A004865F1 /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9287F1F26F8CB17008F507D /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		D93BF15826F84ABF0092A0D6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		D9E4EC3F26EF848300EE036C /* Oshiire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oshiire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E4EC4226EF848300EE036C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9E4EC4426EF848300EE036C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		D9E4EC4B26EF848400EE036C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9E4EC4E26EF848400EE036C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9E4EC5026EF848400EE036C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9ED944326FF958A004865F1 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9287F1E26F88731008F507D /* RealmSwift in Frameworks */,
+				D9287F1C26F88731008F507D /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +66,16 @@
 		D9E4EC4126EF848300EE036C /* Oshiire */ = {
 			isa = PBXGroup;
 			children = (
+				D9287F1F26F8CB17008F507D /* Memo.swift */,
 				D9E4EC4226EF848300EE036C /* AppDelegate.swift */,
 				D9E4EC4426EF848300EE036C /* SceneDelegate.swift */,
 				D9E4EC4626EF848300EE036C /* ViewController.swift */,
 				D9E4EC4826EF848300EE036C /* Main.storyboard */,
+				D9ED944326FF958A004865F1 /* SubViewController.swift */,
 				D9E4EC4B26EF848400EE036C /* Assets.xcassets */,
 				D9E4EC4D26EF848400EE036C /* LaunchScreen.storyboard */,
 				D9E4EC5026EF848400EE036C /* Info.plist */,
+				D93BF15826F84ABF0092A0D6 /* CollectionViewCell.swift */,
 			);
 			path = Oshiire;
 			sourceTree = "<group>";
@@ -83,6 +96,10 @@
 			dependencies = (
 			);
 			name = Oshiire;
+			packageProductDependencies = (
+				D9287F1B26F88731008F507D /* Realm */,
+				D9287F1D26F88731008F507D /* RealmSwift */,
+			);
 			productName = Oshiire;
 			productReference = D9E4EC3F26EF848300EE036C /* Oshiire.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +127,9 @@
 				Base,
 			);
 			mainGroup = D9E4EC3626EF848300EE036C;
+			packageReferences = (
+				D9287F1A26F88731008F507D /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = D9E4EC4026EF848300EE036C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +159,10 @@
 			files = (
 				D9E4EC4726EF848300EE036C /* ViewController.swift in Sources */,
 				D9E4EC4326EF848300EE036C /* AppDelegate.swift in Sources */,
+				D93BF15926F84ABF0092A0D6 /* CollectionViewCell.swift in Sources */,
+				D9ED944426FF958A004865F1 /* SubViewController.swift in Sources */,
 				D9E4EC4526EF848300EE036C /* SceneDelegate.swift in Sources */,
+				D9287F2026F8CB17008F507D /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CN6AX8XYKW;
 				INFOPLIST_FILE = Oshiire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CN6AX8XYKW;
 				INFOPLIST_FILE = Oshiire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -339,6 +364,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9287F1A26F88731008F507D /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.15.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9287F1B26F88731008F507D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9287F1A26F88731008F507D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		D9287F1D26F88731008F507D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9287F1A26F88731008F507D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9E4EC3726EF848300EE036C /* Project object */;
 }

@@ -2,6 +2,40 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
+	<string>realm</string>
+	<string>RealmSyncTestSupport</string>
+	<string>CocoaPodsExample</string>
+	<string>Cocoa</string>
+	<string>ReactiveCocoa</string>
+	<string>RealmTestSupport</string>
+	<string>CommonCrypto</string>
+	<string>objc</string>
+	<string>DynamicExample</string>
+	<string>Network</string>
+	<string>CarthageExample</string>
+	<string>AuthenticationServices</string>
+	<string>NotificationCenter</string>
+	<string>CoreData</string>
+	<string>sys</string>
+	<string>seems</string>
+	<string>SwiftPackageManagerExample</string>
+	<string>XCFrameworkExample</string>
+	<string>RealmSwift</string>
+	<string>SwiftUI</string>
+	<string>libkern</string>
+	<string>RealmSwiftSyncTestSupport</string>
+	<string>PackageDescription</string>
+	<string>XCTest</string>
+	<string>WatchKit</string>
+	<string>Foundation</string>
+	<string>mach</string>
+	<string>Security</string>
+	<string>RealmFFI</string>
+	<string>AppKit</string>
+	<string>Realm</string>
+	<string>Photos</string>
+	<string>Combine</string>
+	<string>net</string>
 	<string>UIKit</string>
 </array>
 </plist>
