@@ -24,8 +24,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         // Main.StoryboardのCellを探してくる
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
       
-           // imageViewに写真を表示
-        cell.shashin.image = UIImage(data: itemList[indexPath.row].realmUse as Data)
+        // imageViewに写真を表示
+     cell.shashin.image = UIImage(data: itemList[indexPath.row].realmUse as Data)
+        
            // Labelにタイトルを表示
         //   cell.titleLabel.text = shootingDate[indexPath.row].title
         
@@ -44,19 +45,35 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
       //array//  var array = userDefaults.array(forKey: "キー")
     
-        let fil1 = itemList.prefix(3)
-        let fil2 = itemList.prefix(5)
-        let fil3 = itemList.prefix(10)
-        let fil4 = itemList.prefix(15)
-        let fil5 = itemList.prefix(20)
-        let fil6 = itemList.prefix(25)
-        let fil7 = itemList.prefix(100)
-    
+//        if let slice1 = UIImage(data: itemList[0].realmUse as Data){
+//            
+//        }
+//        let fil1 = itemList.prefix(3)
+//        let fil2 = itemList.prefix(5)
+//        let fil3 = itemList.prefix(10)
+//        let fil4 = itemList.prefix(15)
+//        let fil5 = itemList.prefix(20)
+//        let fil6 = itemList.prefix(25)
+//        let fil7 = itemList.prefix(100)
+//
+//        for fil1 in itemList{
+//            colorlilter()
+//        }
+//
+//        for fil2 in itemList{
+//            colorlilter()
+//        }
         
-        
-        
-        colorlilter1()
-        func colorlilter1(){
+//        // リストの中にあるオブジェクトに対して１つずつ呼び出す.
+//        if itemList.count < 30{
+//            for i in 30 ..< itemList.count {
+//                
+//                    }
+//        }
+//
+        colorlilter()
+        func colorlilter(){
+          
         //ネット
     //    self.test.image = UIImage(named: "242486518_249743123732507_5928410061423618941_n")
 

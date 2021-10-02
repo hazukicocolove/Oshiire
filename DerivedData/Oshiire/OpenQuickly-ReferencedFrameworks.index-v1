@@ -5,10 +5,10 @@
 	<string>realm</string>
 	<string>RealmSyncTestSupport</string>
 	<string>CocoaPodsExample</string>
-	<string>Cocoa</string>
 	<string>ReactiveCocoa</string>
-	<string>RealmTestSupport</string>
 	<string>CommonCrypto</string>
+	<string>Cocoa</string>
+	<string>RealmTestSupport</string>
 	<string>objc</string>
 	<string>DynamicExample</string>
 	<string>Network</string>
@@ -18,8 +18,8 @@
 	<string>CoreData</string>
 	<string>sys</string>
 	<string>seems</string>
-	<string>SwiftPackageManagerExample</string>
 	<string>XCFrameworkExample</string>
+	<string>SwiftPackageManagerExample</string>
 	<string>RealmSwift</string>
 	<string>SwiftUI</string>
 	<string>libkern</string>
