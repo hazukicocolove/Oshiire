@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>05BF6E75-E3EE-4C1B-A613-5AF0AC6692DF</key>
+		<key>2C7B618E-E056-4B36-9E4D-ED591EC7722C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>05BF6E75-E3EE-4C1B-A613-5AF0AC6692DF.xcactivitylog</string>
+			<string>2C7B618E-E056-4B36-9E4D-ED591EC7722C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run Oshiire</string>
 			<key>timeStartedRecording</key>
-			<real>654802466.13820803</real>
+			<real>654942538.68505895</real>
 			<key>timeStoppedRecording</key>
-			<real>654803091.19678199</real>
+			<real>654942856.98195601</real>
 			<key>title</key>
 			<string>Run Oshiire</string>
 			<key>uniqueIdentifier</key>
-			<string>05BF6E75-E3EE-4C1B-A613-5AF0AC6692DF</string>
+			<string>2C7B618E-E056-4B36-9E4D-ED591EC7722C</string>
 		</dict>
-		<key>455C615E-48AE-4E15-8F16-619006D2C2F2</key>
+		<key>76C07565-D674-4E26-BB1A-D966D3586CA3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>455C615E-48AE-4E15-8F16-619006D2C2F2.xcactivitylog</string>
+			<string>76C07565-D674-4E26-BB1A-D966D3586CA3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run Oshiire</string>
 			<key>timeStartedRecording</key>
-			<real>654804333.54440904</real>
+			<real>654942983.06407797</real>
 			<key>timeStoppedRecording</key>
-			<real>654808997.09024704</real>
+			<real>654943205.802145</real>
 			<key>title</key>
 			<string>Run Oshiire</string>
 			<key>uniqueIdentifier</key>
-			<string>455C615E-48AE-4E15-8F16-619006D2C2F2</string>
+			<string>76C07565-D674-4E26-BB1A-D966D3586CA3</string>
 		</dict>
-		<key>975A4AA0-E52F-428C-AE72-AD24795B24D0</key>
+		<key>B102791F-8CED-4C3F-AF68-C05FC63B5104</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>975A4AA0-E52F-428C-AE72-AD24795B24D0.xcactivitylog</string>
+			<string>B102791F-8CED-4C3F-AF68-C05FC63B5104.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run Oshiire</string>
 			<key>timeStartedRecording</key>
-			<real>654842719.34115303</real>
+			<real>654887023.24451303</real>
 			<key>timeStoppedRecording</key>
-			<real>654842906.70975602</real>
+			<real>654887095.90365398</real>
 			<key>title</key>
 			<string>Run Oshiire</string>
 			<key>uniqueIdentifier</key>
-			<string>975A4AA0-E52F-428C-AE72-AD24795B24D0</string>
+			<string>B102791F-8CED-4C3F-AF68-C05FC63B5104</string>
 		</dict>
-		<key>AF5417F8-ACCF-446B-ABF3-C3A5065A17E5</key>
+		<key>D2633E9D-6396-49A6-9944-B2E9F6AD0A20</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AF5417F8-ACCF-446B-ABF3-C3A5065A17E5.xcactivitylog</string>
+			<string>D2633E9D-6396-49A6-9944-B2E9F6AD0A20.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run Oshiire</string>
 			<key>timeStartedRecording</key>
-			<real>654800605.34288704</real>
+			<real>654942858.71757305</real>
 			<key>timeStoppedRecording</key>
-			<real>654802148.97625005</real>
+			<real>654942972.49382102</real>
 			<key>title</key>
 			<string>Run Oshiire</string>
 			<key>uniqueIdentifier</key>
-			<string>AF5417F8-ACCF-446B-ABF3-C3A5065A17E5</string>
+			<string>D2633E9D-6396-49A6-9944-B2E9F6AD0A20</string>
 		</dict>
-		<key>C17BFCF7-C1CE-43AC-9D86-7301C3F76A7B</key>
+		<key>E0CFB873-C87C-4458-AE61-FF1386FE7981</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C17BFCF7-C1CE-43AC-9D86-7301C3F76A7B.xcactivitylog</string>
+			<string>E0CFB873-C87C-4458-AE61-FF1386FE7981.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,115 +168,13 @@
 			<key>signature</key>
 			<string>Run Oshiire</string>
 			<key>timeStartedRecording</key>
-			<real>654798597.74479604</real>
+			<real>654943216.43439901</real>
 			<key>timeStoppedRecording</key>
-			<real>654799887.87717605</real>
+			<real>654943528.156299</real>
 			<key>title</key>
 			<string>Run Oshiire</string>
 			<key>uniqueIdentifier</key>
-			<string>C17BFCF7-C1CE-43AC-9D86-7301C3F76A7B</string>
-		</dict>
-		<key>C3E9C5BE-68DE-43D4-8169-F7E22F16D7EB</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>C3E9C5BE-68DE-43D4-8169-F7E22F16D7EB.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Oshiire project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Oshiire</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Oshiire</string>
-			<key>timeStartedRecording</key>
-			<real>654802166.33945894</real>
-			<key>timeStoppedRecording</key>
-			<real>654802312.66000795</real>
-			<key>title</key>
-			<string>Run Oshiire</string>
-			<key>uniqueIdentifier</key>
-			<string>C3E9C5BE-68DE-43D4-8169-F7E22F16D7EB</string>
-		</dict>
-		<key>EBFBDD1C-4229-4CDD-B7FB-4C14F1D0FA0B</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>EBFBDD1C-4229-4CDD-B7FB-4C14F1D0FA0B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Oshiire project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Oshiire</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Oshiire</string>
-			<key>timeStartedRecording</key>
-			<real>654802328.21404099</real>
-			<key>timeStoppedRecording</key>
-			<real>654802448.39175701</real>
-			<key>title</key>
-			<string>Run Oshiire</string>
-			<key>uniqueIdentifier</key>
-			<string>EBFBDD1C-4229-4CDD-B7FB-4C14F1D0FA0B</string>
-		</dict>
-		<key>FD4502A2-5A00-44EA-B4D0-33423C697B2A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FD4502A2-5A00-44EA-B4D0-33423C697B2A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Oshiire project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Oshiire</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Oshiire</string>
-			<key>timeStartedRecording</key>
-			<real>654803098.53723204</real>
-			<key>timeStoppedRecording</key>
-			<real>654804321.25064898</real>
-			<key>title</key>
-			<string>Run Oshiire</string>
-			<key>uniqueIdentifier</key>
-			<string>FD4502A2-5A00-44EA-B4D0-33423C697B2A</string>
+			<string>E0CFB873-C87C-4458-AE61-FF1386FE7981</string>
 		</dict>
 	</dict>
 </dict>

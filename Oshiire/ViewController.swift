@@ -25,9 +25,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
       
         // imageViewに写真を表示
-     cell.shashin.image = UIImage(data: itemList[indexPath.row].realmUse as Data)
-        
-           // Labelにタイトルを表示
+    // cell.shashin.image = UIImage(data: itemList[indexPath.row].realmUse as Data)
+       
+        // Labelにタイトルを表示
         //   cell.titleLabel.text = shootingDate[indexPath.row].title
         
         
@@ -41,7 +41,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                    cell.layer.shadowOffset = CGSize(width: 2, height: 2)
         
         //セルのラベルに番号を設定する。
-             cell.label.text = String(indexPath.row + 1)
+           //  cell.label.text = String(indexPath.row + 1)
+        cell.label.text = ""
         
       //array//  var array = userDefaults.array(forKey: "キー")
     
@@ -71,10 +72,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 //                    }
 //        }
 //
+        
+        
+        
         colorlilter()
         func colorlilter(){
-          
-        //ネット
+            // imageViewに写真を表示
+         cell.shashin.image = UIImage(data: itemList[indexPath.row].realmUse as Data)
+            
+    //ネット
     //    self.test.image = UIImage(named: "242486518_249743123732507_5928410061423618941_n")
 
                let filteredImage = CIImage(image: cell.shashin.image!)
@@ -82,8 +88,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 
                filter!.setValue(filteredImage, forKey: "inputImage")
         //7
-        filter!.setValue(3.2, forKey: "inputContrast")
-        filter!.setValue(1.0, forKey: "inputBrightness")
+            filter!.setValue(2.5, forKey: "inputContrast")
+            filter!.setValue(0.72, forKey: "inputBrightness")
             
                self.ciContext = CIContext(options: nil)
         let imageRef = self.ciContext.createCGImage((filter?.outputImage)!, from: (filter?.outputImage!.extent)!)
@@ -92,8 +98,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             print("oo")
         }
   
+        
         //cellに適用
         return cell
+        //cell.contentView.isUserInteractionEnabled = false
     }
     
     
@@ -142,6 +150,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view.
         collectionView.dataSource = self
         collectionView.delegate = self
@@ -173,7 +183,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         imagePickerController.delegate = self
         imagePickerController.allowsEditing = true
         print("a")
-        self.present(imagePickerController, animated:true, completion:nil)
+        self.present(imagePickerController,animated: true, completion: nil)
+        print("でけた")
     }
     
     
@@ -199,6 +210,17 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
        }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+       
+//        var shootingDate: String = ""    // 撮影日時
+//               // 日時の表示形式はお好みで
+//               let formatter = DateFormatter()
+//               formatter.timeZone = TimeZone.current
+//               formatter.locale = Locale.current
+//               formatter.dateFormat = "yyyy-MM-dd"
+//               guard let asset = info[.phAsset] as? PHAsset else { return }
+//               shootingDate = formatter.string(from: asset.creationDate!)
+//               print("shootingDate: \(shootingDate)")
+
                print("b")
                 let image = info[.originalImage] as? UIImage
 //                 originalImage = image.image!
@@ -206,7 +228,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
      //   var array : [UIImage?] = []
       //  array.insert(image, at: 0)
         
-    
+       
 //array//        var array = userDefaults.array(forKey: "キー") as? [UIImage?] ?? []
 //        array.insert(image, at: 0)
 //        userDefaults.set(array, forKey: "キー")
@@ -250,18 +272,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                     
                   
 
-                       /*/にちじ
-                        var shootingDate: String = ""    // 撮影日時
-                        // 日時の表示形式はお好みで
-                           let formatter = DateFormatter()
-                           formatter.timeZone = TimeZone.current
-                           formatter.locale = Locale.current
-                           formatter.dateFormat = "yyyy-MM-dd"
-                           guard let asset = info[.phAsset] as? PHAsset else { return }
-                           shootingDate = formatter.string(from: asset.creationDate!)
-                           print("shootingDate: \(shootingDate)")
-                   
-                        *///にちじ
+                     
+              
+                        ///にちじ
                    
                           collectionView.reloadData()
                 self.dismiss(animated: true, completion: nil)
@@ -269,14 +282,17 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
  //   }
 }
+        
+        deleteButton.isHidden = false
     }
+    
         @IBAction func delete(){
           
             if itemList == nil{
-                deleteButton.isEnabled = true
+                deleteButton.isHidden = false
             }else{
             //UIButtonを無効化
-                deleteButton.isEnabled = false
+                deleteButton.isHidden = true
             }
             
             // アラートダイアログを生成
@@ -304,6 +320,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             let cancelButton = UIAlertAction(title: "キャンセル",
                                              style: UIAlertAction.Style.cancel, handler: { action in
                                                 // CANCELボタンがタップされた時の処理
+                self.deleteButton.isHidden = false
                                                 print("CANCELボタンがタップされた")
             })
             // CANCELボタンを追加
@@ -364,8 +381,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 //filter!.setValue(2.8, forKey: "inputContrast")
 //filter!.setValue(0.875, forKey: "inputBrightness")
 //5
-//filter!.setValue(2.4, forKey: "inputContrast")
-//filter!.setValue(0.75, forKey: "inputBrightness")
+//filter!.setValue(3.2, forKey: "inputContrast")
+//filter!.setValue(1.0, forKey: "inputBrightness")
 //4
 //filter!.setValue(2.0, forKey: "inputContrast")
 //filter!.setValue(0.625, forKey: "inputBrightness")
